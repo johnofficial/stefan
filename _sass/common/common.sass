@@ -1,0 +1,147 @@
+@import "vars"
+@import "utilities"
+@import "text"
+@import "elements"
+@import "buttons"
+@import "header"
+@import "footer"
+
+[data-animate]
+  transition: .9s
+  opacity: 0
+  will-change: opacity
+  transition-delay: .3s
+  &.animated
+    opacity: 1
+
+body
+  padding: 0
+  margin: 0
+  background-image: url("../img/dots.svg")
+  @media (min-width: $medium_bp)
+    background-size: cover
+    background-attachment: fixed
+
+img
+  max-width: 100%
+
+.box
+  max-width: 320px
+  box-sizing: border-box
+  padding: 3rem 4rem
+  box-shadow: 0 0 12px rgba(0,0,0,.12)
+  background: $white
+  border-radius: 12px
+
+// HEADER
+.site-header
+  background: $white
+  box-shadow: 0 3px 6px rgba($black, .06)
+  @media (max-width: $medium_bp)
+    display: none
+.header-wrap
+  justify-content: space-between
+  align-items: center
+  padding: 1rem 2rem
+  .flat-btn
+    font-size: 1rem
+  .site-name
+    font-weight: 500
+    font-size: 1rem
+    color: $primary-color
+    text-decoration: none
+    font-family: $primary-font
+
+// Hero
+.hero-section
+  @media (min-width: $medium_bp)
+    padding-top: 7rem
+    padding-bottom: 7rem
+.hero-section-wrap
+  flex-wrap: wrap
+
+.hero-image-section
+  position: relative
+  .elements-image
+    position: absolute
+    z-index: -1
+    width: 500px
+    max-width: 100%
+
+// About Section
+.about-section
+  background: $so-ligh-gray
+
+// How Section
+.how-section-wrap
+  flex-wrap: wrap
+  justify-content: space-between
+  position: relative
+  .elements-image-wrap
+    position: absolute
+    max-width: 100%
+    @media (min-width: $medium_bp)
+      left: 50%
+    @media (max-width: $medium_bp)
+      top: 30%
+  .elements-image
+    position: relative
+    width: 500px
+    max-width: 100%
+    z-index: -1
+    @media (min-width: $medium_bp)
+      left: -50%
+
+
+// Testimonials Section
+.testimonial-section
+  background: $so-ligh-gray
+.testimonial-section-wrap
+  .title
+    text-align: center
+.testimonials-wrap
+  justify-content: space-between
+  @media (max-width: $medium_bp)
+    flex-direction: column
+    align-items: center
+  .testimonial
+    @media (min-width: $small_bp)
+      margin: 1rem
+    @media (max-width: $small_bp)
+      margin-top: 1rem
+    @media (max-width: $medium_bp)
+      width: 100%
+
+
+// What next section
+.what-next-section
+  background: $white
+
+.what-next-section-wrap
+  p
+    @media (min-width: $medium_bp)
+      font-size: 1.5rem
+
+// Footer
+.footer-section
+  background: $so-ligh-gray
+.footer-wrap
+  flex-wrap: wrap
+.social-link
+  img
+    width: 48px
+    height: 48px
+
+.social-section
+  @media (min-width: $medium_bp)
+    text-align: right
+
+
+.credits
+  background: $primary-color
+  padding: .5rem
+  text-align: center
+  a
+    color: $white
+    font-family: $primary-font
+    font-size: 1rem

@@ -1,0 +1,57 @@
+title: Dreamcatcher Business Brokerage Prodaja privatnih kompanija
+name: Dreamcatcher Business Brokerage
+email: contact@dreamcatcher.com
+phone_number: +381656659348
+description: Dreamcatcher Business Brokerage pruza profesionalne poslovne brokerske usluge privatnim kompanijama.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jsaviic
+github_username:  johnofficial
+instagram_username:  jsaviic
+behance_username:  jovansavic
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+
+include: ["_pages"]
+
+# Hero Section
+hero_title: Kupi <br>Prodaj<br><b>Uspi</b>
+hero_description: Dreamcatcher Business Brokerage pruza profesionalne poslovne brokerske usluge privatnim kompanijama.
+learn_more_link: "#o-nama"bundle exec jekyll serve
+contact_link: "#kontakt"
+learn_more_btn: SAZNAJ JOŠ
+contact_btn: KONTAKT
+
+# About Section
+about_title: O nama
+about_text: Dreamcatcher Business Brokerage pruza profesionalne poslovne brokerske usluge privatnim kompanijama. Nase profesionalno iskustvo u vrednovanju I prodaji privatnih firmi moze napraviti razliku u uspesnoj transakciji. Iz naseg iskustva crpimo viziju koja nam omogucava da pruzimo misljenje o proceni biznisa koja moze pomoci u procesu prodaje. Nas cilj je da pomognemo biznismenima da uspesno zavrse process prodaje ili kupovine biznisa.
+call_button: POZOVI NAS
+email_button: POŠALJI E-MAIL
+
+# How to Section
+
+how_to_sell_title: Kako da prodam kompaniju?
+how_to_sell_text: Takođe, nakon razgovora, i nakon pružanja potrebnih informacija mi ćemo proceniti vrednost tvoje kompanije. Nakon toga, spojićemo te sa ljudima kojima najviše odgovara tvoja kompanija.
+how_to_buy_title: Kako da kupim kompaniju?
+how_to_buy_text: Kontaktiraj nas za kratak i jednostavan razgovor, u kom ćemo pričati o tvojim ciljevima i mi ćemo ti ponuditi neke od kompanija koje se poklapaju sa tvojom idejom o budućnosti poslovanja.
+
+# Testimonial section
+testimonials_title: Iskustva ljudi
+
+# What next
+what_next_title: Šta sledeće
+what_next_text: Bilo da kupujete ili prodajete preduzece mi smo motivisani da Vam pomognemo da postignete svoje ciljeve. Kontaktirajte nas, da saznate nešto više o kompanijama koje nudimo, ili kako bi izvršili početnu procenu tvoje firme.
+
+# Footer
+rights_reserved: 2018. Sva prava zadržana.
+creator: created by jovan.design
+creator_link: https://jovansavic.com/
+disclaimer: Odricanje odgovornosti.
+disclaimer_text: Prodavci biznisa koje mi zastupamo pruzili su informacije o svom poslovanju I oni garantuju da su tacne. Dreamcatcher Business Brokerage nema razloga da dovodi u pitanje preciznost date finansiske informacije. Mi u kompaniji Dreamcatcher Business Brokerage uvek preporucujemo da I kupci I prodavci traze profesionalne finansiske I pravne savete koji ce pomoci u bilo kojoj transakciji. U nasoj kompaniji mi nikada ne nudimo pravne niti finansiske savete.
+close: ZATVORI

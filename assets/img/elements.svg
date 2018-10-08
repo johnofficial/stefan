@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 526 440.602">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0045ff;
+      }
+
+      .cls-2 {
+        opacity: 0.46;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        fill: #f8f8f8;
+      }
+
+      .cls-5 {
+        fill: #fd0;
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-7 {
+        filter: url(#Ellipse_3);
+      }
+
+      .cls-8 {
+        filter: url(#Ellipse_2);
+      }
+
+      .cls-9 {
+        filter: url(#Ellipse_5);
+      }
+
+      .cls-10 {
+        filter: url(#Ellipse_4);
+      }
+    </style>
+    <filter id="Ellipse_4" x="136" y="337.269" width="103.333" height="103.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_5" x="148" y="33.269" width="378" height="378" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_2" x="0" y="140.269" width="274" height="274" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="136" y="337.269" width="103.333" height="103.333" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g class="cls-10" transform="matrix(1, 0, 0, 1, 0, 0)">
+        <circle id="Ellipse_4-2" data-name="Ellipse 4" class="cls-1" cx="42.667" cy="42.667" r="42.667" transform="translate(455 481)"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(-288 -136.731)">
+    <g id="Group_3" data-name="Group 3" class="cls-2" transform="translate(1193.291 782.281) rotate(-180)">
+      <line id="Line_1" data-name="Line 1" class="cls-3" x2="200" transform="translate(702.147 404.821) rotate(30)"/>
+      <line id="Line_1-2" data-name="Line 1" class="cls-3" x2="200" transform="translate(690.647 424.739) rotate(30)"/>
+      <line id="Line_1-3" data-name="Line 1" class="cls-3" x2="200" transform="translate(679.147 444.658) rotate(30)"/>
+      <line id="Line_1-4" data-name="Line 1" class="cls-3" x2="200" transform="translate(667.647 464.577) rotate(30)"/>
+      <line id="Line_1-5" data-name="Line 1" class="cls-3" x2="200" transform="translate(656.147 484.495) rotate(30)"/>
+      <line id="Line_1-6" data-name="Line 1" class="cls-3" x2="200" transform="translate(644.647 504.414) rotate(30)"/>
+      <line id="Line_1-7" data-name="Line 1" class="cls-3" x2="200" transform="translate(633.147 524.332) rotate(30)"/>
+      <line id="Line_1-8" data-name="Line 1" class="cls-3" x2="200" transform="translate(621.647 544.251) rotate(30)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 288, 136.73)">
+      <circle id="Ellipse_5-2" data-name="Ellipse 5" class="cls-4" cx="180" cy="180" r="180" transform="translate(157 42.27)"/>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 288, 136.73)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" class="cls-5" cx="128" cy="128" r="128" transform="translate(9 146.27)"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(58.255 1187.245) rotate(-90)">
+      <line id="Line_1-9" data-name="Line 1" class="cls-3" x2="200" transform="translate(702.147 404.821) rotate(30)"/>
+      <line id="Line_1-10" data-name="Line 1" class="cls-3" x2="200" transform="translate(690.647 424.739) rotate(30)"/>
+      <line id="Line_1-11" data-name="Line 1" class="cls-3" x2="200" transform="translate(679.147 444.658) rotate(30)"/>
+      <line id="Line_1-12" data-name="Line 1" class="cls-3" x2="200" transform="translate(667.647 464.577) rotate(30)"/>
+      <line id="Line_1-13" data-name="Line 1" class="cls-3" x2="200" transform="translate(656.147 484.495) rotate(30)"/>
+      <line id="Line_1-14" data-name="Line 1" class="cls-3" x2="200" transform="translate(644.647 504.414) rotate(30)"/>
+      <line id="Line_1-15" data-name="Line 1" class="cls-3" x2="200" transform="translate(633.147 524.332) rotate(30)"/>
+      <line id="Line_1-16" data-name="Line 1" class="cls-3" x2="200" transform="translate(621.647 544.251) rotate(30)"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(-22 -1)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 310, 137.73)">
+        <circle id="Ellipse_3-2" data-name="Ellipse 3" class="cls-1" cx="42.667" cy="42.667" r="42.667" transform="translate(145 343.27)"/>
+      </g>
+      <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-6">
+        <image id="Repeat_Grid_2" data-name="Repeat Grid 2" width="82" height="90" transform="translate(458 481)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABaCAYAAAArfwH2AAAAAXNSR0IArs4c6QAAApxJREFUeAHtnIFtgzAQRWknyObtBjBCugGjdINkA/rPOPDjXqQgIkWJniXDYU6ofT0bXknbTdN0UO/VT+rRevVD17QYq+fIMzaVy1en4KjetsFyS6gE8qYp4zIEvACZtVMCkjzN2oTLb4D5bE/U448b4+0weZVIgPxp6ej4mIyRl3MZCytVZdxEYv07q0eLOX/rZkNeU2HBSv27GeYQAhCAAAScQF0se+0xFgOzkQtmI2DRBmNYQo3FE0rbsjzMxihlxmKnlzDLw2ysCncbGmYz09xjcmO5hIo2nswxFivPCDdywWwafhxCAAIQuCJQF9Vee8zGyGzkgtkIWLTBGJZQY5hNQTNvMhOx00u4Jw+zsSrEbAzGs94pjZe1ALPZ/44Ks7GKJoQABCDwj4CepOJm06tjNkZnIxfMRsCiDcawhBrDbAqaebPHWOwyS5hdD7OxKsRsDAZmUyfOoP3BwFzWqlcwL8ym/cFxDAEIQMAJxAKv3qtjNgZmIxfMRsCiDcawhBrDbAqaeZOZiJ1ewj15mI1VIWZjMDCbOsEwG6sKQghAAAJvRUALPWZz+9d3vfjcY3yYzeWJoZ0dGsdsKpzY7TEWu8wSZtfDbKwKMRuDgdnUiYPZWFUQQgACEHgrAlroMRvMZq1pFcS9JvLovHja4H+jBQS1zFjmM9fbLA+zWeu5w2wMBmZTZw9mY1VBCAEIQOCtCGihx2wwm7WmVRCPNpZ7r4fZmLRkxmKnlzDLw2zWesZsjMXT/nv1WL4IFW3cbGI9ONcCfmXDeNb3wd/ZeEkTQwACEGgJ1JtNr/09n7oirwFY+fFpNIGINjR8Oo3FE0DbsjzMxihlxmKnlzDLw2ysCnlnYzB4Z1MnzisbFWZjFU0IAQhAoCXwBzcUoNA8P3TRAAAAAElFTkSuQmCC"/>
+      </g>
+    </g>
+  </g>
+</svg>

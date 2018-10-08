@@ -1,0 +1,108 @@
+.btn
+  padding: 1rem 1.5rem
+  display: inline-block
+  white-space: nowrap
+  text-decoration: none
+  font-family: $primary-font
+  font-weight: 600
+  border: 3px solid
+  border-radius: 2rem
+  transition: .3s
+  &.primary
+    background: $primary-color
+    color: $white
+  &.secondary
+    color: $primary-color
+  &:hover
+    letter-spacing: 1.5
+
+.flat-btn
+  display: inline-block
+  white-space: nowrap
+  text-decoration: none
+  font-family: $primary-font
+  font-weight: 600
+  position: relative
+  color: $black
+  font-size: 1.5rem
+  @media (max-width: $medium_bp)
+    font-size: 1rem
+  &:before
+    width: 20%
+    height: 2px
+    display: block
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    background: $black
+    transition: .3s
+  &:hover
+    &:before
+      width: 100%
+
+.call-btn
+  @media (min-width: $small_bp)
+    display: none
+
+
+
+.content-card
+  background: rgba($white, .96)
+  box-shadow: 0 0 6px rgba($black, .06)
+  border-radius: .25rem
+  p
+    font-size: 1.5rem
+    color: rgba($black, .64)
+    @media (max-width: $medium_bp)
+      font-size: 1rem
+
+
+
+.testimonial
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  background: $white
+  padding: 1rem
+  box-shadow: 0 0 6px rgba(0,0,0,0.06)
+  max-width: 480px
+  border-radius: 4px
+  .bgc-image
+    width: 48px
+    height: 48px
+    background-size: cover
+    background-repeat: no-repeat
+  .quote
+    margin-bottom: 1rem
+    p
+      font-size: 1rem
+  .info
+    p
+      font-size: .8rem
+    .name
+      color: $black
+      font-style: normal
+    font-style: italic
+    div:first-child
+      margin-right: .5rem
+
+
+.modal-wrap
+  position: fixed
+  width: 100%
+  height: 100vh
+  top: 0
+  left: 0
+  background: rgba($black, .8)
+  z-index: 9999
+  display: none
+  &.active
+    display: flex
+  .modal
+    padding: 2rem
+    border-radius: .25rem
+    background: $white
+    width: 500px
+    max-width: 90%
+    margin: auto
