@@ -1,12 +1,12 @@
-<section class="testimonial-section w-100" data-animate>
+<section class="testimonial-section w-100">
 	<div class="mw-1000 testimonial-section-wrap m-auto p-basic ">
 
-		<h2 class="title mb-3">
+		<h2 class="title mb-3" data-animate>
 			{{site.testimonials_title}}
 		</h2>
 		<div class="testimonials-wrap d-flex">
 			{% for t in site.data.testimonials %}
-			<div class="testimonial">
+			<div class="testimonial" data-animate>
 				<main class="quote">
 					<p class="paragraph font-weight-500 secondary-font">
 						{{ t.quote }}

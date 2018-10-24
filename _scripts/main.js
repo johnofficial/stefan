@@ -44,7 +44,22 @@ var Common = {
 		handleTriggering();
 
 	},
+	handleLinkClick: function () {
+		$("body").on("click", "a", function (e) {
+			var href = $(this).attr("href");
+
+			if ( href[0] == "#" && href.length > 1 ) {
+				e.preventDefault();
+				var sectionTarget = $(this).attr("href");
+				var sectionPosition = $(sectionTarget).offset().top;
+				$('body,html').animate({
+					scrollTop : sectionPosition
+				}, 500);
+			}
+		});
+	},
 	Init: function (  ) {
+		this.handleLinkClick();
 		this.modal();
 		this.triggerAnimation();
 	}

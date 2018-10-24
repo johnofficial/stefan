@@ -1,6 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Dreamcatcher Business Brokerage Prodaja privatnih kompanija
 name: Dreamcatcher Business Brokerage
-email: contact@dreamcatcher.com
+email: kontakt@businessbrokerage.rs
 phone_number: +381656659348
 description: Dreamcatcher Business Brokerage pruza profesionalne poslovne brokerske usluge privatnim kompanijama.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,7 +38,7 @@ include: ["_pages"]
 # Hero Section
 hero_title: Kupi <br>Prodaj<br><b>Uspi</b>
 hero_description: Dreamcatcher Business Brokerage pruza profesionalne poslovne brokerske usluge privatnim kompanijama.
-learn_more_link: "#o-nama"bundle exec jekyll serve
+learn_more_link: "#o-nama"
 contact_link: "#kontakt"
 learn_more_btn: SAZNAJ JOŠ
 contact_btn: KONTAKT
@@ -43,6 +58,10 @@ how_to_buy_text: Kontaktiraj nas za kratak i jednostavan razgovor, u kom ćemo p
 
 # Testimonial section
 testimonials_title: Iskustva ljudi
+
+# Clients Section
+clients_title: Kakve kompanije nudimo
+clients_text: Kompanije kojima vršimo posredovanje su širokih kategorija. Nudimo ugostiteljske objekte kao što su kafići, hoteli, brze hrane, itd… Vršimo posredovanje i u kupoprodaji fitnes centara (teretana), prodavnica ili lanaca prodavnica. Takođe vršimo posredovanje i kompanija koje spadaju u ostale kategorije.
 
 # What next
 what_next_title: Šta sledeće
